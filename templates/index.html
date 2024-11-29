@@ -9,12 +9,14 @@
 <body>
     <div class="form-container">
         <h1>URL Scam Detector</h1>
-        <p>Enter a URL to check if it is a scam or not using our AI model.</p>
+        <p>Enter a URL to check if it could be containing a scam or not using our AI models.</p>
+        <p>Each scan can take up to 2 minutes please wait for the results.</p>
         <form action="/check-url" method="POST">
             <label for="url-input">Enter URL:</label>
             <input type="url" id="url-input" name="url" placeholder="https://example.com" required>
             <button type="submit">Check URL</button>
         </form>
+        <p>This website is currently running on a free hosting and goes into inactivity mode after a time. If this mode is active your first scam detection will take up to 5 minutes</p>
     </div>
     <script 
         type="text/javascript" 
