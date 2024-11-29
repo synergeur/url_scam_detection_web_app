@@ -5,7 +5,6 @@
 
 [functions]
   directory = "netlify/functions"  # Directory where Netlify functions (your backend) are located
-  python_runtime = "python3.8"     # Specify Python version
 
 [dev]
   command = "flask run"            # Command for local development (if needed)
